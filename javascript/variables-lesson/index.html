@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Mer om Variabler</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
+  <body>
+    <div
+      id="mainDiv"
+      class="center">
+      <h1>Choose Color</h1>
+      <div class="colors center">
+        <div class="red"></div>
+        <div class="purple"></div>
+        <div class="blue"></div>
+      </div>
+
+      <div class="center">
+        <div
+          id="redDiv"
+          class="cols"
+          onclick="setCol()">
+          Red
+        </div>
+        <div
+          id="purpleDiv"
+          class="cols"
+          onclick="setCol()">
+          Purple
+        </div>
+        <div
+          id="blueDiv"
+          class="cols"
+          onclick="setCol()">
+          Blue
+        </div>
+      </div>
+
+      <div class="btn-container center">
+        <button onclick="changeBg()">Mystery Color</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

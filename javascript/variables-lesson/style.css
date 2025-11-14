@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: "Canela Deck", sans-serif;
+    color: whitesmoke;
+    background-color: #413a65;
+}
+
+#mainDiv {
+    height: 600px;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+.red {
+    background-color: #AE0032;
+    padding: 20px;
+}
+
+.purple {
+    background-color: #650F4D;
+    padding: 20px;
+}
+
+.blue {
+    background-color: #111d5e;
+    padding: 20px;
+}
+
+.colors {
+    margin-bottom: 50px;
+}
+
+.cols {
+    margin: 10px;
+    padding: 10px;
+    transition: all 0.7s;
+}
+
+.cols:hover {
+    cursor: pointer;
+    border: solid 2px #f38181;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.set-color {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #2C35AC;
+}
+
+.btn-container {
+    margin: 20px;
+}
+
+button {
+    border: 0;
+    border-radius: 3px;
+    width: 200px;
+    height: 50px;
+    text-decoration: underline;
+    background-color: #203e5f;
+    color: whitesmoke;
+
+    transition: all 1s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #2e4869;
+    transform: scale(1.1);
+}
