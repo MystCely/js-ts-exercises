@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: "Canela Deck", sans-serif;
+    height: 200vh;
+    color: #3f3f3f;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    margin-top: 70px;
+}
+
+.text-field {
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    background-color: #EFEFEF;
+    border-radius: 3px;
+    border: dashed darkgray 2px;
+}
+
+.btn-container {
+    margin-top: 10px;
+}
+
+button {
+    width: 40px;
+    height: 20px;
+    margin: 3px;
+    border: 0;
+    border-radius: 3px;
+    transition: all 600ms;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: darkgray;
+    transform: scale(1.1);
+}
