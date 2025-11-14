@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    background-color: lightgray;
+    border: 1px solid black;
+    list-style: none;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+#itemInfo {
+    text-align: center;
+}
+
+.user-input {
+    margin: 2px;
+}
