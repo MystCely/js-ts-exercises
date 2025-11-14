@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: "Canela Deck", sans-serif;
+  background-color: #004445;
+  color: #f1f1f1;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.croc {
+  width: 200px;
+}
+
+.btn-container {
+  margin-top: 40px;
+}
+
+#startBtn {
+  border: 0;
+  width: 200px;
+  height: 80px;
+  border-radius: 3px;
+
+  font-family: "Canela Deck", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  cursor: pointer;
+  transition: all 600ms;
+}
+
+#startBtn:hover {
+  transform: translateY(-6px);
+}
+
+.secBtn {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  margin: 6px;
+  border: 0;
+  border-radius: 15px;
+  transition: all 600ms;
+}
+
+.secBtn:hover {
+  background-color: #d2d2d2;
+}
+
+.secBtn-container {
+  margin: 20px;
+}
+
+.instruction {
+  margin-top: 70px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 8px;
+}
+
+.points-container {
+  margin: 50px;
+}
+
+.info {
+  margin: 3px;
+}
+
+.points {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.gameOver {
+  font-size: 100px;
+  margin-top: 200px;
+}
