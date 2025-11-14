@@ -1,0 +1,174 @@
+body {
+  font-family: "Canela Deck", Verdana, sans-serif;
+  height: 350vh;
+}
+
+.first-page {
+  margin: 7% 0;
+}
+
+.logo-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 10px;
+}
+
+.logo-center {
+  display: flex;
+  justify-content: center;
+}
+
+.cat-logo {
+  width: 50px;
+}
+
+.left-logo {
+  text-align: start;
+  align-self: flex-end;
+  font-family: "Limelight", sans-serif;
+  font-size: 25px;
+}
+
+.right-logo {
+  text-align: end;
+  align-self: flex-end;
+  font-family: "Limelight", sans-serif;
+  font-size: 25px;
+}
+
+.cat-img-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.cat-img {
+  border-radius: 20px;
+  width: 300px;
+  transform: rotate(3deg);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 0 30px;
+  margin: 0;
+  width: 50%;
+  font-size: 40px;
+}
+
+.info-cat {
+  display: flex;
+  justify-content: center;
+}
+
+.p-cat {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.p-header {
+  text-align: center;
+  margin: 0 20px;
+  font-size: 12px;
+}
+
+.text-scroller {
+  margin-top: 19%;
+  background-color: #ffcab0;
+  overflow: hidden;  
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroll-list {
+  margin: 0;
+  width: max-content;
+  padding-inline: 0;
+  padding-block: 0.5rem;
+  list-style: none;
+  display: flex;
+  animation: text-scroll linear;
+  animation-timeline: scroll(root);
+}
+
+.scroll-list li {
+  padding: 0.5rem;
+}
+
+@keyframes text-scroll {
+ to {
+    transform: translateX(50%);
+ }
+}
+
+.box-container {
+  margin-top: 20%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+  width: 300px;
+  height: 420px;
+  border-radius: 7px;
+  
+  padding: 40px;
+  margin: 20px;
+
+  background-color: #ffcab0;
+  opacity: 0;
+  animation: reveal ease-in-out;
+  animation-timeline: view();
+}
+
+.box-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.box-2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* scroll animation */
+@keyframes reveal {
+ 0% {
+    transform: scale(0.7) translateY(30px);
+    opacity: 0;
+ }
+ 50% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+ }
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center
+}
+
+.btn {
+  margin-top: 5%;
+  background-color: antiquewhite;
+  border: 0px;
+  border-radius:3px;
+
+  width: 150px;
+  height: 50px;
+  font-family: "Nata Sans", sans-serif;
+  font-weight: 500;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-color: #ffcab0;
+  cursor: pointer;
+  transform: scale(1.1); 
+}
