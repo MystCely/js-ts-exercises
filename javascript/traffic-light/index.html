@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Trafikklys</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
+  <body>
+    <h1 class="center">Trafikklys</h1>
+    <div class="traffic-container center">
+      <div
+        id="redId"
+        class="circle red"></div>
+      <div
+        id="yellowId"
+        class="circle yellow"></div>
+      <div
+        id="greenId"
+        class="circle green"></div>
+    </div>
+
+    <div class="btn-container center">
+      <button onclick="toggleColor('red')">Red</button>
+      <button onclick="toggleColor('yellow')">Yellow</button>
+      <button onclick="toggleColor('green')">Green</button>
+    </div>
+    <div class="center">
+      <button
+        class="extra-btn"
+        id="extraBtn"
+        onclick=" autoActive()">
+        Start automatically
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

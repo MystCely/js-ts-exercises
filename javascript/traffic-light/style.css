@@ -1,0 +1,74 @@
+:root {
+    --bGC: red; 
+}
+
+body {
+    background-color: #36454f;
+    color: whitesmoke;
+    font-family: "Canela Deck", sans-serif;
+    font-size: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.traffic-container {
+    flex-direction: column;
+}
+
+.circle {
+    width: 100px;
+    height: 100px; /*Must be equal to height*/
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.red {
+    background-color: red;
+}
+
+.red-active {
+   filter: blur(10px);
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellow-active {
+   filter: blur(10px);
+}
+
+
+.green-active {
+   filter: blur(10px);
+}
+.green {
+    background-color: green;
+}
+
+.btn-container {
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    width: 80px;
+    margin: 7px;
+    transition: all 600ms;
+    border-radius: 3px;
+    border: 0;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #4D5E69;
+    color: whitesmoke;
+}
+
+.extra-btn {
+    width: 120px;
+}
