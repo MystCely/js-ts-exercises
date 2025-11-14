@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: "Canela Deck", sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.status-container {
+  width: 270px;
+}
+
+.status {
+  font-size: 18px;
+  text-align: left;
+}
+
+/* you can't change the native progress bar because the element is styled by the browser */
+progress {
+  width: 200px;
+  height: 20px;
+  appearance: none; /*removes default browser style*/
+}
+
+/* change progress bar for Chrome/Edge */
+progress::-webkit-progress-bar {
+  background-color: #eee; /* empty track */
+  border-radius: 10px;
+}
+
+.barDirty::-webkit-progress-value {
+  background-color: #a65f1b; /* filled part */
+  border-radius: 10px;
+}
+
+.barHungry::-webkit-progress-value {
+  background-color: #9f2d01; /* filled part */
+  border-radius: 10px;
+}
+
+.barBored::-webkit-progress-value {
+  background-color: #ffdf20; /* filled part */
+  border-radius: 10px;
+}
+
+/* change progress bar Firefox */
+.barDirty::-moz-progress-bar {
+  background-color: pink; /* filled part */
+  border-radius: 10px;
+}
+.barHungry::-moz-progress-bar {
+  background-color: pink; /* filled part */
+  border-radius: 10px;
+}
+.barBored::-moz-progress-bar {
+  background-color: pink; /* filled part */
+  border-radius: 10px;
+}
+/* end of progress bars */
+
+.center-btn {
+  display: flex;
+  align-items: center;
+}
+
+.progress-container {
+  height: 30px;
+}
+
+button {
+  border: 0;
+  border-radius: 2px;
+  width: 70px;
+  height: 25px;
+  margin-left: 10px;
+
+  font-family: "Canela Deck", sans-serif;
+  cursor: pointer;
+  transition: all 600ms;
+}
+
+button:hover {
+  background-color: #dddddd;
+}
+
+.gameOver-container {
+  height: 50%;
+  width: 100%;
+}
+
+.gameOverText {
+  color: #c40000;
+  margin-top: 100px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.panda {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.Lambopic {
+  width: 650px;
+  margin-top: 50px;
+  border-radius: 3px;
+  box-shadow: 10px 10px 20px 3px;
+}
