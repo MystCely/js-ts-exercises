@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: "Canela Deck", sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-container {
+  padding: 200px;
+}
+
+.myString {
+  font-size: 80px;
+}
+
+button {
+  margin: 10px;
+  border: 0;
+  border-radius: 3px;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+button:hover {
+  background-color: #dddddd;
+}
