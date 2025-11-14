@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Visuell Teller</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
+  <body>
+    <h1>Visuell Teller</h1>
+
+    <div class="counter">
+      <div class="container">
+        <div class="num-container">
+          <h3
+            id="displayNum"
+            class="number">
+            0
+          </h3>
+        </div>
+
+        <br />
+        <div class="btn-container">
+          <button
+            onclick="addOneNum()"
+            class="btn-plus">
+            Plus One
+          </button>
+          <button
+            onclick="minOneNum()"
+            class="btn-minus">
+            Minus One
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

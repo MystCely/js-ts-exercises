@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: "Canela Deck", sans-serif;
+    color: #dbd8e3;
+    background-color: #2a2438;
+}
+
+h1 {
+    text-align: center;
+    color: darkgray;
+}
+
+.counter {
+
+    /* center counter */
+    display: block;
+    margin: 0 auto;
+
+    padding-top: 300px;
+    width: 600px;
+    height: 500px;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.num-container {
+
+    text-align: center;
+}
+
+.number {
+    font-size: 50px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-plus {
+    width: 90px;
+    padding: 8px;
+    margin: 8px;
+
+    border-radius: 5px;
+    border: 0;
+
+    background-color: #5c5470;
+    color: #dbd8e3;
+
+    transition: all 1s;
+}
+
+.btn-minus {
+    width: 90px;
+    padding: 8px;
+    margin: 8px;
+    border: 0;
+    border-radius: 5px;
+
+    background-color: #5c5470;
+    color: #dbd8e3;
+
+    transition: all 1s;
+}
+
+.btn-plus:hover {
+    background-color: #dbd8e3;
+    cursor: pointer;
+    color: #5c5470;
+    transform: scale(1.1);
+}
+
+.btn-minus:hover {
+    cursor: pointer;
+    background-color: #dbd8e3;
+    color: #5c5470;
+    transform: scale(1.1);
+}
