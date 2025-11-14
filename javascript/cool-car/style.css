@@ -1,0 +1,104 @@
+body {
+  background-color: #80dcff;
+  color: #f1f1f1;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+
+  margin: 0;
+}
+
+.header-container {
+  position: relative;
+}
+
+.bg {
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+}
+
+h1 {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.road-container {
+  padding-top: 450px;
+}
+
+hr {
+  border: 20px solid grey;
+  margin: 0;
+  padding: 0;
+}
+
+.green {
+  width: 100vw;
+  height: 60vh;
+  background-color: #00d527;
+}
+
+.items {
+  width: 60px;
+  display: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.drive {
+  animation: drive 20s linear forwards;
+}
+
+@keyframes drive {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(-100vw);
+  }
+}
+
+progress {
+  width: 200px;
+  height: 20px;
+  appearance: none;
+  margin-left: 20px;
+}
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 10px;
+}
+progress::-webkit-progress-value {
+  background-color: green;
+  border-radius: 10px;
+}
+
+.barcool::-webkit-progress-bar {
+  background-color: black;
+  border-radius: 10px;
+}
+
+.person {
+  position: absolute;
+  bottom: 100px;
+  width: 200px;
+}
+/* .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.center-btn {
+  display: flex;
+  align-items: center;
+}
+.button {
+  border: 0;
+  border-radius: 2px;
+  width: 70px;
+  height: 25px;
+  margin-left: 10px;
+}
+ */
