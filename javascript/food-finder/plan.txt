@@ -1,0 +1,6 @@
+Plan
+1. Get the user's name
+2. Buttons to choose their mood
+3. Show what dish they are depending on their mood: f.eks. Happy = milktea, Tired = Coffee, Sad = Lakris, Angry = Carolina Reaper 
+4. Underneath the dish, show a fun fact about it
+5. "Lakris is ew. Milk tea is nice."
