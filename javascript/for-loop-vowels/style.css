@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #1e1c1c;
+  color: #f1f1f1;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#output {
+  font-size: 30px;
+  text-align: center;
+}
+
+button {
+  width: 75px;
+  height: 26px;
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
