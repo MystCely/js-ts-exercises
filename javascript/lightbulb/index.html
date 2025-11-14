@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Lyspære-oppgave</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      textMsg = "The light is off";
+      let activeLight = false;
+
+      updateView();
+      function updateView() {
+        document.getElementById("app").innerHTML = /*html*/ `
+        <div class="center">
+          <h1>Lyspære</h1>
+          <div id="light" class="circle"></div>
+          <div id="text">${textMsg}</div>
+          <div class="btn-container">
+            <button id="btn" onclick="updateLight(); updateText();">Toggle Light</button>
+            </div>
+        </div>
+      `;
+      }
+      // change text from on and off
+      function updateText() {
+        activeLight = !activeLight; // ! is opposite
+        if (activeLight == true) {
+          textMsg = "The light is on";
+          document.getElementById("text").innerHTML = textMsg;
+        } else {
+          textMsg = "The light is off";
+          document.getElementById("text").innerHTML = textMsg;
+        }
+      }
+
+      // turn on and off light
+      function updateLight() {
+        document.getElementById("light").classList.toggle("lightOn");
+      }
+    </script>
+  </body>
+</html>

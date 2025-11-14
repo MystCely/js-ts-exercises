@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: "Canela Deck", sans-serif;
+  background-color: #212121;
+  color: #f1f1f1;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#text {
+  font-size: 20px;
+}
+
+.circle {
+  width: 200px; /* Set equal width */
+  height: 200px; /* Set equal height */
+  border-radius: 50%; /* Makes it a circle */
+  background-color: grey;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.lightOn {
+  background-color: yellow;
+  filter: blur(3px);
+}
+
+.btn-container {
+  margin: 10px;
+}
+
+button {
+  margin: 30px;
+  width: 180px;
+  height: 60px;
+  border: 0;
+  font-size: 20px;
+  border-radius: 4px;
+
+  cursor: pointer;
+  transition: all 700ms;
+}
+
+button:hover {
+  background-color: #787878;
+  color: #f1f1f1;
+  transform: scale(1.05);
+}
